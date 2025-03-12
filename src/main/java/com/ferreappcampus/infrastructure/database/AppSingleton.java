@@ -10,7 +10,7 @@ public enum AppSingleton {
     private final Properties propiedades = new Properties();
 
     AppSingleton() {
-        cargarConfiguraciones("config.properties");
+        cargarConfiguraciones("configmysql.properties");
     }
 
     private void cargarConfiguraciones(String rutaArchivo) {
@@ -23,6 +23,6 @@ public enum AppSingleton {
     }
 
     public String get(String clave) {
-        return propiedades.getProperty(clave, "No encontrado");
+        return propiedades.getProperty(clave, "ERROR!!!!!!!!!!!!!!!!!!!!");
     }
 }
