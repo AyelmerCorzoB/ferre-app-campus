@@ -1,4 +1,4 @@
-package com.skeletonhexa.infrastructure.database;
+package com.ferreappcampus.infrastructure.database;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.skeletonhexa;
+package com.ferreappcampus;
 
 public class Main {
     public static void main(String[] args) {

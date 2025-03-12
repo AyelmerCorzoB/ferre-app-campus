@@ -1,4 +1,4 @@
-package com.skeletonhexa.infrastructure.database;
+package com.ferreappcampus.infrastructure.database;
 
 import java.sql.Connection;
 import java.sql.SQLException;
